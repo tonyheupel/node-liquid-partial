@@ -1,0 +1,15 @@
+{
+  "name": "node-liquid-partial",
+  "author": "Tony Heupel <tonyheupel@gmail.com>",
+  "description": "Add Partial tag and a Templates collection to Liquid for more modular templates",
+  "version": "0.1.0",
+  "directories": { "lib": "./lib", "test": "./test" },
+  "main": "./index.js",
+  "engines": {
+    "node": "~0.6.5"
+  },
+  "dependencies": {
+    "liquid-node": "git://github.com/sirlantis/liquid-node.git"
+	},
+	"scripts": {}
+}
