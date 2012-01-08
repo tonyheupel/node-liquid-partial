@@ -1,6 +1,6 @@
 var Liquid = require('liquid')
 
 Liquid.Tempates = require('./lib/templates')
-Liquid.Partial = require('./lib/partial')
 
-module.exports = Liquid
+
+module.exports = Liquid.Partial = require('./lib/partial')
