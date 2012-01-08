@@ -12,10 +12,10 @@
     "liquid-node": "git://github.com/tchype/liquid-node.git#pre-promise"
 	},
   "devDependencies": {
-    "vows": ">=0.6.1"
+    "vows": "0.6.0"
   },
 	"scripts": {
-    "test": "vows ./test/*-test.js --spec",
+    "test": "vows ./test/*.js --spec",
 	"postinstall": "cake build"
 	}
 }
