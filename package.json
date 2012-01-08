@@ -9,7 +9,12 @@
     "node": "~0.6.5"
   },
   "dependencies": {
-    "liquid-node": "git://github.com/sirlantis/liquid-node.git"
+    "liquid-node": "git://github.com/tchype/liquid-node.git#pre-promise"
 	},
-	"scripts": {}
+  "devDependencies": {
+    "vows": ">=0.6.1"
+  },
+	"scripts": {
+    "test": "vows ./*-test.js --spec"
+	}
 }
