@@ -1,6 +1,6 @@
 # Liquid.Partial
 
-Liquid.Partial is a tag for the Node.js implementation of Liquid ([liquid-node](http://github.com/sirlantis/liquid-node)) from [Marcel Jackwerth's](http://github.com/sirlantis) , which is a port of Tobias Lutke's Liquid templating language.
+Liquid.Partial is a tag for the Node.js implementation of Liquid ([liquid-node](http://github.com/sirlantis/liquid-node)) from [Marcel Jackwerth](http://github.com/sirlantis), which is a port of Tobias Lutke's [Liquid templating language](https://github.com/shopify/liquid).
 
 It adds the ability to register templates (or strings that get parsed into templates) as partials and then refer to them in other templates with this notation:
 
