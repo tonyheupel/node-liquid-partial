@@ -15,6 +15,7 @@
     "vows": ">=0.6.1"
   },
 	"scripts": {
-    "test": "vows ./test/*-test.js --spec"
+    "test": "vows ./test/*-test.js --spec",
+	"postinstall": "cake build"
 	}
 }
