@@ -1,4 +1,4 @@
-var Liquid = require('liquid')
+var Liquid = require('liquid-node')
 
 Liquid.Tempates = require('./lib/templates')
 
